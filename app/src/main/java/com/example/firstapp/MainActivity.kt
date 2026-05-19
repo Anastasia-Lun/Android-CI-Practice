@@ -17,13 +17,16 @@ import com.example.firstapp.ui.theme.FirstAppTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
-            FirstAppTheme {
-                GreetingScreen(
-                    message = "Hi, my name is Бородавка Анастасія"
-                )
+
+        val x =
+
+            setContent {
+                FirstAppTheme {
+                    GreetingScreen(
+                        message = "Hi, my name is Бородавка Анастасія"
+                    )
+                }
             }
-        }
     }
 }
 
